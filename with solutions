@@ -1,0 +1,18 @@
+//Write a program in C++ to calculate the volume of a sphere.
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int radius;
+    float volume;
+    cout<<"Enter value of radius: "<<endl;
+    cin>>radius;
+
+
+    volume = (4*3.14*(radius*radius*radius)/3);
+
+    cout<<volume;
+    return 0;
+
+}
